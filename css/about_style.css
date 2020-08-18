@@ -1,12 +1,14 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: white;
+  color: black;
   font-weight: 300;
   font-size: 1.1rem;
   font-family: 'Helvetica';
   margin: 0px;
-  background-color: #5b6770;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 ul {
@@ -49,8 +51,9 @@ li a:hover {
 .wrapper {
   text-align: justify;
   /* padding: 0px 50px; */
-  color: white;
-  font-size: 1rem;
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 15rem;
 }
 
 .summary-text {
