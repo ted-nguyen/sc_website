@@ -8,9 +8,98 @@
     <link rel="icon" type="image/png" href="images/favicon.png"/>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/image.scss">
+    
   </head>
+  
+  
+  <style>
+  html {
+    box-sizing: border-box;
+  }
+  .card{
+    background-color: #5b6770;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .name{
+  text-align: center;	
+  }
+   .img-circle{
+      
+      margin-bottom: 10px;
+      padding: 4px;
+      border-radius: 50% !important;
+      max-width: 100%;
+      
 
-  <body>
+    }
+    .img-no-padding{
+      padding: 0px;
+  }
+  
+  .column {
+    float: left;
+    width: 18%;
+    margin-bottom: 16px;    
+    margin-left: 15%;
+    margin-right: 15%;
+   
+    
+  }
+  
+  .column4 {
+    float: left;
+    width: 13%;
+    margin-bottom: 6px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: inline-table;
+    }
+    .column4 {
+      width: 100%;
+      display: inline-table;
+      
+    }
+  }
+  
+  
+  
+  .container {
+    padding: 0 16px;
+    
+    background-color: #5b6770;
+    
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;    
+    display: table;
+    
+    
+  }
+
+  
+  
+  .title {
+    color:black;
+    text-align: center;
+    
+  }
+  
+  
+  </style>
+
+  <body><center>
     <ul>
       <li><a href="about.html">About</a></li>
       <li><a href="methodology.html">Methodology</a></li>
@@ -21,8 +110,268 @@
       <a href="index.html"><img class="logo" src="images/favicon.png"></a>
     </ul>
 
-    <div class="col">
-      <h2 class="title-info">Team</h2>
+    <div class="td">
+      <h6 class="title-info"><center>Team</center></h6>
     </div>
+
+    <div class="row "><center>
+      <div class="column">
+        <div class="mx-auto">
+          <img src="images/faces/Colleen.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h2 >Colleen Chien</h2>
+            <p class="title">Director</p>
+           
+          </div>
+        </div>
+        <center>
+      </div>
+    
+      <div class="column">
+        <div class="mx-auto">
+          <img src="images/faces/navid.jpg" alt="Mike" class="img-circle img-no-padding">
+          <div class="container">
+            <h2>Navid Shaghaghi</h2>
+            <p class="title">Project Manager</p>
+           
+          </div>
+        </div>
+      </div>
+      
+    
+    </div>
+    
+    
+    <div class="row">
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/charles.jfif" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Charles Duggan</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/female.png" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Prof. Eli Edwards</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/female.png" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Prof. Ellen Kreitzberg</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/william.jfif" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Prof. William Sundstrom</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+    
+     
+    </div>
+
+    <div class="row">
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/evan.jpeg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Evan Hastings</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Jerry.jpeg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Jerry Huang</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Hithesh.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Hithesh Shekhar</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/apoorva.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Apoorva Srinivas</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+    
+     
+    </div>
+
+    <div class="row">
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/connor.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Connor Azzarello</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/anthony.jpg"" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Anthony Chen</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Alexandra.jpeg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Alexanda George</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Teddy.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Theodore Nguyen</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+    
+     
+    </div>
+
+    <div class="row">
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/bhagyashree.jfif" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Bhagyashri Badgujar</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Surya.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Surya Konda</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/darshan.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Darshan Bhansali</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/female.png" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Pooja Prashar</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+    
+     
+    </div>
+
+    <div class="row">
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Nancy.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Nancy Attalla</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/soliman.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Soliman Hatif</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/serena.jpg" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Serena Natt</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+      <div class="column4">
+        <div class="mx-auto">
+          <img src="images/faces/Xiaolong.JPG" alt="Jane"  class="img-circle img-no-padding">
+          <div class="container">
+            <h6>Xiaolong "Joe" Wu</h6>
+            
+        
+          </div>
+        </div>
+      </div>
+    
+     
+    </div>
+    
+  </center>
   </body>
 </html>
